@@ -165,7 +165,7 @@ p {
 
 
 .hall_home_right_top_cover {
-    height: 20vh;
+    height: 30vh;
     position: relative;
     display: flex;
     align-items: center;
@@ -180,7 +180,7 @@ p {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 1% 1%;
+    margin: 0% 1.5%;
 }
 
 .hall_home_right_top_cover::after {
@@ -1088,7 +1088,7 @@ p {
 .campus_life {
     border: 1px solid #C8BCBC;
     box-sizing: border-box;
-    margin: 0px 0px 20px;
+    margin: 24px 0px 20px;
 }
 
 .campus_life1 {
@@ -2639,12 +2639,17 @@ button:active {
     /* margin-left: -2px !IMPORTANT; */
     color: #fff;
 }
+.green_campus_left img{
+    width: 100%;
+    height: 260px;
+}
 .green_campus_left_p{
     font-size: 38px;
     font-family: Roboto;
     font-weight: bold;
     margin-left: -24px !important;
-    color: #fff;
+    color: #000;
+    text-align: center;
 }
 .green_campus_left_p span{
     color: #1882FF;
@@ -2653,25 +2658,28 @@ button:active {
     font-size: 18px;
     font-family: Roboto;
     font-style: normal;
-    margin-top: 50px;
+    margin-top: 5px;
+    color: #000;
+    margin-top: 25px;
 }
 .green_campus_left_btn{
     display: flex;
     margin-left: -8px;
-    padding:40px 0px;
+    padding:10px 0px;
 }
 .green_btn{
     font-size: 17px;
     font-family: Roboto;
     font-style: normal;
     text-decoration: none;
-    font-weight: 100!important;
+    font-weight: 500!important;
     color: #fff;
-    width: 120px;
+    width: 150px;
     background-color: #1882FF;
     padding: 8px 12px;
     margin: 10px;
-    text-align: center
+    text-align: center;
+    border-radius: 5px;
 }
 .green_btn_watch{
     background-color: #fff;
@@ -3833,7 +3841,7 @@ button:active {
 /* Conference */
 .converence_left_p span{
     color: #fff;
-    font-size: 28px;
+    font-size: 26px;
     font-family: Roboto;
     font-weight: bold;
     margin-left: 0px !important;
@@ -4223,3 +4231,20 @@ button:active {
 }
 
 /* testimonial css end  */
+
+
+
+/* Extra nav */
+.extra_nav{
+    /* margin-top: 18vh; */
+    margin: 0% 1.5%;
+    /* height: 2vh; */
+}
+
+.extra_nav .navbar{
+    background-color: #187AF1;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff !important;
+}
